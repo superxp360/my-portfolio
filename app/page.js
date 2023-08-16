@@ -1,10 +1,9 @@
 import Hero from '@/components/Hero'
 import Projects from '@/components/Project'
 
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="bg-black overflow-hidden">
       <Hero />
       <Projects />
     </main>
