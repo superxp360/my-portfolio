@@ -1,6 +1,7 @@
 import Intro from '@/components/Intro'
 import AboutMe from '@/components/AboutMe'
 import Projects from '@/components/Project'
+import ProjectBoard from '@/components/ProjectBoard'
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <main>
       <Intro />
       <AboutMe />
+      <ProjectBoard />
      
     </main>
   )
