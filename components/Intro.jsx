@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Intro() {
   return (
     <section className="text-gray-600 body-font relative">
       <div className="absolute inset-0">
@@ -7,7 +7,7 @@ export default function Hero() {
           src="/images/backgroundImage.jpg"
           alt="Background Image"
         />
-        <div className="absolute inset-0 bg-[#091206] opacity-80"></div>
+        <div className="absolute inset-0 bg-[#020601] opacity-80"></div>
       </div>
       <div className="container mx-auto flex flex-col px-5 py-64 justify-center items-center relative z-10">
         <h1 className=" font-inter font-light text-center sm:text-7xl sm:text-center text-4xl mb-4  text-[#E8E8E8]">
